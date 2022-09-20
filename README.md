@@ -1,4 +1,4 @@
-# [Név]
+# Somogyi Botond
 
 ## Hogyan kezdj neki?
 
