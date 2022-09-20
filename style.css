@@ -32,6 +32,16 @@ body {
     padding: 5px;
 }
 
+#cal:hover {
+    background-color: rgb(231, 231, 231);
+    color: #ff7d04;
+}
+
+#cal:active {
+    background-color: rgb(205, 205, 205);
+    color: #ff9735;
+}
+
 .bmi-result {
     font-weight: bold;
     color: #f3953e;
