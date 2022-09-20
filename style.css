@@ -4,6 +4,11 @@ body {
     margin-right: auto;
     font-family: sans-serif;
     font-size: small;
+    background-color: rgb(249, 249, 249);
+}
+
+.numberInput {
+    width: 100px;
 }
 
 .box {
