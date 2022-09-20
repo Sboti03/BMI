@@ -9,25 +9,63 @@
     <title>BMI kalkulátor</title>
 </head>
 <body>
-    <section>
-        <div class="box">
-            <div class="description">
-                Írja be cm-ben számított testmagasságát (cipő nélkül mérve):
+    <main>
+        <section class="first-sec">
+            <div class="box">
+                <div class="description">
+                    Írja be cm-ben számított testmagasságát (cipő nélkül mérve):
+                </div>
+                <div class="inputField">
+                    <label><input type="number" name="" id="height"> cm</label>
+                </div>
             </div>
-            <div class="inputField">
-                <label><input type="number" name="" id="height"> cm</label>
+            <div class="box">
+                <div class="description">
+                    Írja be kg-ban számított testsúlyát (cipő nélkül mérve):
+                </div>
+                <div class="inputField">
+                    <label><input type="number" name="" id="weight"> kg</label>
+                </div>
             </div>
-        </div>
-        <div class="box">
-            <div class="description">
-                Írja be kg-ban számított testsúlyát (cipő nélkül mérve):
+            <button id="cal">Számítás</button>
+            
+        </section>
+    
+        <section id="result">
+            <div class="bmi-result">
+                Az ön BMI értéke: <span id="bmi-result">21</span>
             </div>
-            <div class="inputField">
-                <label><input type="number" name="" id="height"> cm</label>
-            </div>
-        </div>
-        <button id="cal">Számítás</button>
-        
-    </section>
+    
+    
+            <table class="resultTable">
+                <tr id="no1" >
+                    <td class="tdElement">18,5 vagy kevesebb</td>
+                    <td class="tdElement">SOVÁNY</td>
+                </tr>
+                <tr id="no2">
+                    <td class="tdElement">18,5-24,9</td>
+                    <td class="tdElement">NORMÁL</td>
+                </tr>
+                <tr id="no3">
+                    <td class="tdElement">25-29,9</td>
+                    <td class="tdElement">TÚLSÚLY</td>
+                </tr>
+                <tr id="no4">
+                    <td class="tdElement">30-34,9</td>
+                    <td class="tdElement">I. FOKÚ ELHÍZÁS</td>
+                </tr>
+                <tr id="no5">
+                    <td class="tdElement">35-39,9</td>
+                    <td class="tdElement">II. FOKÚ ELHÍZÁS</td>
+                </tr>
+                <tr id="no6">
+                    <td class="tdElement">40 vagy több</td>
+                    <td class="tdElement">III. FOKÚ ELHÍZÁS</td>
+                </tr>
+            </table>
+    
+        </section>
+    </main>
+    
 </body>
 </html>
